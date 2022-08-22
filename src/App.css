@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .series,
+  .movies,
+  .sign-up {
+    display: flex;
+    font-size: 3rem;
+  }
+  
+  .series {
+    display: flex;
+    flex-direction: column;
+    color: #242424;
+    font-size: 36px;
+  }
+
+  .search-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+  }
+
+  .search__bar{
+    margin-top: 17.5px;
+    margin-left: 27px;
+    width:25%;
+    height: 35px;
+  }
+
+  .drop__down__list{
+    margin-top: 17.5px;
+    margin-right: 26px;
+    width:25%;
+    height: 35px;
+  }
+
+  .split{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    
+  }
+
+  .box{
+    margin: auto;
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 220px;
+    height: 320px;
+    
+  }
+
+  .box__img{
+    width:100%;
+    height: 85%;
+  }
+
+  .box__text{
+    margin-top:0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .movies {
+    display: flex;
+    flex-direction: column;
+    color: #242424;
+    font-size: 36px;
+  }
+  
+  .sign-up {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #242424;
+    font-size: 36px;
+  }
+

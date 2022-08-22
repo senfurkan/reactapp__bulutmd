@@ -1,0 +1,42 @@
+.wrapper{
+    display: flex;
+    width: 100%;
+    height: 490px;
+    background-color: #fff;
+}
+
+.Series{
+    float:left;
+    padding-top: 10px;
+    width: 50%;
+    height: 420px;
+}
+
+.Movies{
+    padding-top: 10px;
+    width: 50%;
+    height: 420px;
+}
+
+.SelectionScreen {
+    margin: auto;
+    width: 50%;
+    height: 420px;
+}
+
+.labelSeries{
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.SelectionScreenimg {
+    width:100%;
+    height:420px;
+}
+
+
+
+
+
+
